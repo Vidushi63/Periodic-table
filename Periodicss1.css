@@ -1,0 +1,54 @@
+
+td{
+    border-radius: 20px;
+    padding: 8px;
+}
+*{
+    margin:0;
+}
+   td:hover{
+   transform: scale(1.2);
+    
+   font-size: 20px;
+    font-weight: 900;
+}
+h1{
+    color:black;
+ }
+    
+    .Colors{
+            height: 180px;
+            width: 15%;
+            font-size: 16px;
+    }
+    .col1{
+        background-color:Pink;   
+    }
+    .col2{
+        background-color: orange;
+    }
+    .col3{
+        background-color:yellow;
+    }
+    .col4{
+        background-color: Lightgreen;
+    }
+    .col5{
+      background-color: lightblue;  
+    }
+    .col6{
+        background-color: cadetblue;
+    }
+    .col7{
+        background-color: lightskyblue;
+    }
+    .col8{
+        background-color: aqua;
+    }
+    .col9{
+     background-color: yellowgreen;
+    }
+    .col10{
+        background-color: chartreuse;
+    }
+   
