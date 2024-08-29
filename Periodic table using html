@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+       <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Periodicss1.css">
+   
 </head>
 <body>
     <h1 style="text-align: center;"> <big>Periodic Table</big></h1>
-        <table class="Table1">
+    <center>
+        <table  class="Table1">
             <tr>
                 <td bgcolor="Lightblue"><p>1</p>H <p>Hydrogen</p><p>1.01</p> </td>
                 <td colspan="16"></td>
-                <td bgcolor="Lightpurple"><p>2</p>He<p>Helium</p><p>4.00</p></td>
+                <td bgcolor="aqua"><p>2</p>He<p>Helium</p><p>4.00</p></td>
             </tr>
             <tr>
                 <td bgcolor="Pink"><p>3</p>Li<p>Lithium</p><p>6.94</p></td>
                 <td bgcolor="orange"><p>4</p>Be<p>Beryllium</p><p>9.01</p></td>
                 <td colspan="10"></td>
                 <td bgcolor="lightblue"><p>5</p>B<p>Boron</p><p>10.81</p></td>
-                <td bgcolor="purple"><p>6</p>C<p>Carbon</p><p>12.10</p></td>
-                <td bgcolor="purple"><p>7</p>N<p>Nitrogen</p><p>14.01</p></td>
-                <td bgcolor="purple"><p>8</p>O<p>Oxygen</p><p>16.00</p></td>
-                <td bgcolor="red"><p>9</p>F<p>Fluorine</p><p>19.00</p></td>
-                <td bgcolor="Lightpurple"><p>10</p>Ne<p>Neon</p><p>20.18</p></td>
+                <td bgcolor="cadetblue"><p>6</p>C<p>Carbon</p><p>12.10</p></td>
+                <td bgcolor="cadetblue"><p>7</p>N<p>Nitrogen</p><p>14.01</p></td>
+                <td bgcolor="cadetblue"><p>8</p>O<p>Oxygen</p><p>16.00</p></td>
+                <td bgcolor="lightskyblue"><p>9</p>F<p>Fluorine</p><p>19.00</p></td>
+                <td bgcolor="aqua"><p>10</p>Ne<p>Neon</p><p>20.18</p></td>
             </tr>
             <tr>
                 <td bgcolor="Pink"><p>11</p>Na<p>Sodium</p><p>22.99</p></td>
@@ -30,10 +33,10 @@
                 <td colspan="10"></td>
                 <td bgcolor="Lightgreen"><p>13</p>Al<p>Aluminium</p><p>26.98</p></td>
                 <td bgcolor="lightblue"><p>14</p>Si<p>Silicon</p><p>28.09</p></td>
-                <td bgcolor="purple"><p>15</p>P<p>Phosphorous</p><p>30.97</p></td>
-                <td bgcolor="purple"><p>16</p>S<p>Sulpher</p><p>32.06</p></td>
-                <td bgcolor="red"><p>17</p>Cl<p>Chlorine</p><p>32.45</p></td>
-                <td bgcolor="Blue"><p>18</p>A<p>Argon</p><p>39.95</p></td>
+                <td bgcolor="cadetblue"><p>15</p>P<p>Phosphorous</p><p>30.97</p></td>
+                <td bgcolor="cadetblue"><p>16</p>S<p>Sulpher</p><p>32.06</p></td>
+                <td bgcolor="lightskyblue"><p>17</p>Cl<p>Chlorine</p><p>32.45</p></td>
+                <td bgcolor="aqua"><p>18</p>A<p>Argon</p><p>39.95</p></td>
             </tr>
             <tr>
                 <td bgcolor="Lightpink"><p>19</p>K<p>Potassium</p><p>39.10</p></td>
@@ -51,9 +54,9 @@
                 <td bgcolor="lightgreen"><p>31</p>Ga<p>Gallium</p><p>69.72</p></td>
                 <td bgcolor="Lightblue"><p>32</p>Ge<p>Germanium</p><p>72.63</p></td>
                 <td bgcolor="lightblue"><p>33</p>As<p>Arsenic</p><p>74.92</p></td>
-                <td bgcolor="purple"><p>34</p>Se<p>Selenium</p><p>78.97</p></td>
-                <td bgcolor="red"><p>35</p>Br<p>Bromine</p><p>79.90</p></td>
-                <td bgcolor="Blue"><p>36</p>Kr<p>Krypton</p><p>83.80</p></td>
+                <td bgcolor="cadetblue"><p>34</p>Se<p>Selenium</p><p>78.97</p></td>
+                <td bgcolor="lightskyblue"><p>35</p>Br<p>Bromine</p><p>79.90</p></td>
+                <td bgcolor="aqua"><p>36</p>Kr<p>Krypton</p><p>83.80</p></td>
             </tr>
             <tr>
                 <td bgcolor="Pink"><p>37</p>Rb<p>Rubidium</p><p>85.47</p></td>
@@ -72,13 +75,13 @@
                 <td bgcolor="Lightgreen"><p>50</p>Sn<p>Tin</p><p>118.71</p></td>
                 <td bgcolor="Lightblue"><p>51</p>Sb<p>Antimony</p><p>121.76</p></td>
                 <td bgcolor="Lightblue"><p>52</p>Te<p>Tellurium</p><p>127.6</p></td>
-                <td bgcolor="red"><p>53</p>I<p>Iodine</p><p>126.90</p></td>
-                <td bgcolor="Blue"><p>54</p>Xe<p>Xenon</p><p>131.29</p></td>  
+                <td bgcolor="lightskyblue"><p>53</p>I<p>Iodine</p><p>126.90</p></td>
+                <td bgcolor="aqua"><p>54</p>Xe<p>Xenon</p><p>131.29</p></td>  
             </tr>
             <tr>
                 <td bgcolor="Lightpink"><p>55</p>Cs<p>Cesium</p><p>132.91</p></td>
                 <td bgcolor="orange"><p>56</p>Ba<p>Barium</p><p>137.33</p></td>
-                <td bgcolor="lightbrown"><p>57-71</p><p>Lanthanides</p><p></p></td>
+                <td bgcolor="yellowgreen"><p>57-71</p><p>Lanthanides</p><p></p></td>
                 <td bgcolor="yellow"><p>72</p>Hf<p>Hafnium</p><p>178.49</p></td>
                 <td bgcolor="yellow"><p>73</p>Ta<p>Tantalum</p><p>180.95</p></td>
                 <td bgcolor="yellow"><p>74</p>W<p>Tungsten</p><p>183.85</p></td>
@@ -92,13 +95,13 @@
                 <td bgcolor="Lightgreen"><p>82</p>Pb<p>Lead</p><p>207.20</p></td>
                 <td bgcolor="Lightgreen"><p>83</p>Bi<p>Bismuth</p><p>208.98</p></td>
                 <td bgcolor="Lightblue"><p>84</p>Po<p>Polonium</p><p>208.98</p></td>
-                <td bgcolor="red"><p>85</p>At<p>Astatine</p><p>209.98</p></td>
-                <td bgcolor="blue"><p>86</p>Rn<p>Radon</p><p>222.02</p></td>
+                <td bgcolor="lightskyblue"><p>85</p>At<p>Astatine</p><p>209.98</p></td>
+                <td bgcolor="aqua"><p>86</p>Rn<p>Radon</p><p>222.02</p></td>
             </tr>
             <tr>
                 <td bgcolor="Lightpink"><p>87</p>Fr<p>Francium</p><p>223.02</p></td>
                 <td bgcolor="orange"><p>88</p>Ra<p>Radium</p><p>226.03</p></td>
-                <td bgcolor="grey"><p>89-103</p><p>Actinides</p><p></p></td>
+                <td bgcolor="chartreuse"><p>89-103</p><p>Actinides</p><p></p></td>
                 <td bgcolor="yellow"><p>104</p>Rf<p>Rutherfordium</p><p>261</p></td>
                 <td bgcolor="yellow"><p>105</p>Db<p>Dubnium</p><p>262</p></td>
                 <td bgcolor="yellow"><p>106</p>Sg<p>Seaborgium</p><p>266</p></td>
@@ -112,56 +115,66 @@
                 <td bgcolor="Lightgreen"><p>114</p>Fl<p>Flerovium</p><p>289</p></td>
                 <td bgcolor="Lightgreen"><p>115</p>Mc<p>Moscovium</p><p>289</p></td>
                 <td bgcolor="Lightgreen"><p>116</p>Lv<p>Livermorium</p><p>293</p></td>
-                <td bgcolor="red"><p>117</p>Ts<p>Tennessine</p><p>294</p></td>
-                <td bgcolor="blue"><p>118</p>Og<p>Oganesson</p><p>294</p></td>
+                <td bgcolor="lightskyblue"><p>117</p>Ts<p>Tennessine</p><p>294</p></td>
+                <td bgcolor="aqua"><p>118</p>Og<p>Oganesson</p><p>294</p></td>
 
             </tr>
     
     
         </table>
-
+    </center>
+    <center>
         <table class="Table2">
             <tr>
-                <td colspan="3"></td>
-                <td bgcolor="lightbrown"><p>57</p>La<p>Oganesson</p><p>294</p></td>
-                <td bgcolor="lightbrown"><p>58</p>Ce<p>Oganesson</p><p>294</p></td>
-                <td bgcolor="lightbrown"><p>59</p>Pr<p>Oganesson</p><p>294</p></td>
-                <td bgcolor="lightbrown"><p>60</p>Nd<p>Oganesson</p><p>294</p></td>
-                <td bgcolor="lightbrown"><p>61</p>Pm<p>Oganesson</p><p>294</p></td>
-                <td bgcolor="lightbrown"><p>62</p>Sm<p>Oganesson</p><p>294</p></td>
-                <td bgcolor="lightbrown"><p>63</p>Eu<p>Oganesson</p><p>294</p></td>
-                <td bgcolor="lightbrown"><p>64</p>Gd<p>Oganesson</p><p>294</p></td>
-                <td bgcolor="lightbrown"><p>65</p>Tb<p>Oganesson</p><p>294</p></td>
-                <td bgcolor="lightbrown"><p>66</p>Dy<p>Oganesson</p><p>294</p></td>
-                <td bgcolor="lightbrown"><p>67</p>Ho<p>Oganesson</p><p>294</p></td>
-                <td bgcolor="lightbrown"><p>68</p>Er<p>Oganesson</p><p>294</p></td>
-                <td bgcolor="lightbrown"><p>69</p>Tm<p>Oganesson</p><p>294</p></td>
-                <td bgcolor="lightbrown"><p>70</p>Yb<p>Oganesson</p><p>294</p></td>
-                <td bgcolor="lightbrown"><p>71</p>Lu<p>Oganesson</p><p>294</p></td>
+                
+                <td bgcolor="yellowgreen"><p>57</p>La<p>Lanthanum</p><p>294</p></td>
+                <td bgcolor="yellowgreen"><p>58</p>Ce<p>Cerium</p><p>294</p></td>
+                <td bgcolor="yellowgreen"><p>59</p>Pr<p>Praseodymium</p><p>294</p></td>
+                <td bgcolor="yellowgreen"><p>60</p>Nd<p>Neodymium</p><p>294</p></td>
+                <td bgcolor="yellowgreen"><p>61</p>Pm<p>Promethium</p><p>294</p></td>
+                <td bgcolor="yellowgreen"><p>62</p>Sm<p>Samarium</p><p>294</p></td>
+                <td bgcolor="yellowgreen"><p>63</p>Eu<p>Europium</p><p>294</p></td>
+                <td bgcolor="yellowgreen"><p>64</p>Gd<p>Gadolinium</p><p>294</p></td>
+                <td bgcolor="yellowgreen"><p>65</p>Tb<p>Terbium</p><p>294</p></td>
+                <td bgcolor="yellowgreen"><p>66</p>Dy<p>Dysoprosium</p><p>294</p></td>
+                <td bgcolor="yellowgreen"><p>67</p>Ho<p>Holminium</p><p>294</p></td>
+                <td bgcolor="yellowgreen"><p>68</p>Er<p>Erbium</p><p>294</p></td>
+                <td bgcolor="yellowgreen"><p>69</p>Tm<p>Thulium</p><p>294</p></td>
+                <td bgcolor="yellowgreen"><p>70</p>Yb<p>Ytterbium</p><p>294</p></td>
+                <td bgcolor="yellowgreen"><p>71</p>Lu<p>Lutetium</p><p>294</p></td>
             </tr>
             <tr>
-                <td colspan="3"></td>
-                <td bgcolor="Gray"><p>89</p>Ac <p>Actinium</p><p>227.03</p></td>
-                <td bgcolor="Gray"><p>90</p>Th<p>Thorium</p><p>232.04</p></td>
-                <td bgcolor="Gray"><p>91</p>Pa <p>Protactinium</p><p>231.04</p></td>
-                <td bgcolor="Gray"><p>92</p>U <p>Uranium</p><p>238.03</p></td>
-                <td bgcolor="Gray"><p>93</p>Np <p>Neptunium</p><p>237.05</p></td>
-                <td bgcolor="Gray"><p>94</p>Pu <p>Plutonium</p><p>244.06</p></td>
-                <td bgcolor="Gray"><p>95</p>Am <p>Americium</p><p>243.06</p></td>
-                <td bgcolor="Gray"><p>96</p>Cm <p>Curium</p><p>247.07</p></td>
-                <td bgcolor="Gray"><p>97</p>Bk <p>Berkelium</p><p>247.07</p></td>
-                <td bgcolor="Gray"><p>98</p>Cf <p>Californium</p><p>251.08</p></td>
-                <td bgcolor="Gray"><p>99</p>Es <p>Einsteinium</p><p>254</p></td>
-                <td bgcolor="Gray"><p>100</p>Fm <p>Fermium</p><p>257.10</p></td>
-                <td bgcolor="Gray"><p>101</p>Md <p>Mendelevium</p><p>259.10</p></td>
-                <td bgcolor="Gray"><p>102</p>No <p>Nobelium</p><p>227.03</p></td>
-                <td bgcolor="Gray"><p>103</p>Lr <p>Lawrencium</p><p>262</p></td>
+               
+                <td bgcolor="chartreuse"><p>89</p>Ac <p>Actinium</p><p>227.03</p></td>
+                <td bgcolor="chartreuse"><p>90</p>Th<p>Thorium</p><p>232.04</p></td>
+                <td bgcolor="chartreuse"><p>91</p>Pa <p>Protactinium</p><p>231.04</p></td>
+                <td bgcolor="chartreuse"><p>92</p>U <p>Uranium</p><p>238.03</p></td>
+                <td bgcolor="chartreuse"><p>93</p>Np <p>Neptunium</p><p>237.05</p></td>
+                <td bgcolor="chartreuse"><p>94</p>Pu <p>Plutonium</p><p>244.06</p></td>
+                <td bgcolor="chartreuse"><p>95</p>Am <p>Americium</p><p>243.06</p></td>
+                <td bgcolor="chartreuse"><p>96</p>Cm <p>Curium</p><p>247.07</p></td>
+                <td bgcolor="chartreuse"><p>97</p>Bk <p>Berkelium</p><p>247.07</p></td>
+                <td bgcolor="chartreuse"><p>98</p>Cf <p>Californium</p><p>251.08</p></td>
+                <td bgcolor="chartreuse"><p>99</p>Es <p>Einsteinium</p><p>254</p></td>
+                <td bgcolor="chartreuse"><p>100</p>Fm <p>Fermium</p><p>257.10</p></td>
+                <td bgcolor="chartreuse"><p>101</p>Md <p>Mendelevium</p><p>259.10</p></td>
+                <td bgcolor="chartreuse"><p>102</p>No <p>Nobelium</p><p>227.03</p></td>
+                <td bgcolor="chartreuse"><p>103</p>Lr <p>Lawrencium</p><p>262</p></td>
             </tr>
+      
         </table>
-
-
-   
-   
-
+    </center>
+        
+        <div class="Colors">
+            <p class="col1">Alkali Metals</p>
+            <p class="col2">Alkaline Earth</p>
+            <p class="col3">Transition Metal</p>
+            <p class="col4">Basic Metal</p>
+            <p class="col5">Metalloid</p>
+            <p class="col6">Non-metal</p>
+            <p class="col7">Halogen</p>
+            <p class="col8">Nobel Gas</p>
+            <p class="col9">Lanthanide</p>
+            <p class="col10">Actinide</p>
 </body>
 </html>
